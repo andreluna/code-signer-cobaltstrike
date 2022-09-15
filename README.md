@@ -65,7 +65,7 @@ certbot -n --apache -d updates.losenolove.com --agree-tos --email myaccount@mail
 
 
 
-#### To use certificates in Malleable C2 Profiles, the files need stay in current.
+#### To use certificates in Malleable C2 Profiles, the files need to stay in same profile directory.
 
 
 
