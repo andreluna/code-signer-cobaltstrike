@@ -4,12 +4,28 @@
 <br>
 
 #### Documentation references, see at: 
+<br>
 
 [Code Signing Certificate](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/malleable-c2_code-signing-certificate.htm#_Toc65482849)
 
 [Valid SSL Certificates with SSL Beacon](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/malleable-c2_valid-ssl-certificates.htm#_Toc65482847)
 
+<hr>
 
+### Step 0
+
+#### I'm insert new update in the shell script. Now, the script automatic generatic Let's Encrypt certificate. Just insert the domain name and e-mail address.
+
+```
+# domain name
+CERT_DOMAIN_NAME="updates.losenolove.com"
+# cert password to java keystore
+CERT_PASSWORD="uGFP0x910299201t60o!su%PWi"
+# e-mail to generate cert with let's encrypt
+EMAIL="email@gmail.com"
+```
+
+<hr>
 
 ### Step 1
 
@@ -106,18 +122,4 @@ certbot -n --apache -d updates.losenolove.com --agree-tos --email myaccount@mail
 
 
 ![Image](images/012.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
