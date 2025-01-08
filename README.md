@@ -14,7 +14,7 @@
 
 ### Step 0
 
-#### I'm insert new update in the shell script. Now, the script automatic generatic Let's Encrypt certificate. Just insert the domain name and e-mail address.
+#### I'm insert new update in the shell script. Now, the script automatic generate Let's Encrypt certificate. Just insert the domain name and e-mail address.
 
 ```
 # domain name
